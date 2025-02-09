@@ -123,7 +123,7 @@
   </head>
   <body class="theme--light">
     <!-- PRELOADER SPINNER
-                  ============================================= -->
+    ============================================= -->
     <div
       id="loading"
       class="loading--theme h-full w-full fixed z-[99999999] mt--0 top-0 bg-[#f5f5f9]"
@@ -138,7 +138,7 @@
       </div>
     </div>
     <!-- STYLE SWITCHER
-                  ============================================= -->
+    ============================================= -->
     <div
       id="stlChanger"
       class="hidden fixed z-[9999] text-[15px] overflow-hidden right-[-230px] cursor-pointer transition-all duration-[400ms] ease-[ease-in-out] rounded-none top-[100px] xsm:hidden"
@@ -295,15 +295,28 @@
               <nav class="wsmenu clearfix">
                 <div class="overlapblackbg"></div>
                 <ul class="wsmenu-list nav-theme">
-                  <!-- SIMPLE NAVIGATION LINK -->
                   <li class="nl-simple" aria-haspopup="true">
-                    <a href="chief-information-officer.html" class="h-link">CIO</a>
+                    <a href="index.html" class="h-link">Home</a>
                   </li>
-                  </li>
-                  <!-- END MEGAMENU -->
-                  <!-- SIMPLE NAVIGATION LINK -->
                   <li class="nl-simple" aria-haspopup="true">
-                    <a href="our-services.html" class="h-link">Our Services</a>
+                    <a href="chief-information-officer.html" class="h-link"
+                      >CIO</a
+                    >
+                  </li>
+                  <li class="nl-simple" aria-haspopup="true">
+                    <a href="our-services.html" class="h-link">Services</a>
+                  </li>
+                  <li class="nl-simple" aria-haspopup="true">
+                    <a href="our-services.html" class="h-link">ASP</a>
+                  </li>
+                  <li class="nl-simple" aria-haspopup="true">
+                    <a href="our-services.html" class="h-link">Hosting</a>
+                  </li>
+                  <li class="nl-simple" aria-haspopup="true">
+                    <a href="i-net.html" class="h-link">I-Net</a>
+                  </li>
+                  <li class="nl-simple" aria-haspopup="true">
+                    <a href="our-services.html" class="h-link">Contact Us</a>
                   </li>
                 </ul>
               </nav>
@@ -316,7 +329,7 @@
       </header>
       <!-- END HEADER -->
       <!-- HERO-19
-                     ============================================= -->
+      ============================================= -->
       <section
         id="hero-19"
         class="blur--purple gr--ghost hero-section relative z-[3] pt-[170px] md:pt-[80px] lg:pt-[150px] after:absolute after:content-[''] after:z-[-1] after:w-full after:h-full after:top-[-30%] after:bg-[url(./images/blur-purple.png)] after:bg-no-repeat after:bg-[center_center] after:bg-cover after:bg-scroll after:opacity-20 after:left-0"
@@ -334,12 +347,32 @@
                 >
                   S&R Technology<br />Group
                 </h2>
-                <!-- Text -->
-                <p
-                  class="p-xl mb-[32px] lg:mb-[28px] md:mb-[24px] sm:mb-[25px] xsm:mb-[25px] p-[0_10%] md:p-[0_8%] sm:p-[0_2%]"
+
+                <!-- Pop up -->
+                <div
+                  id="about-us-modal"
+                  class="mfp-hide p-xl mb-[32px] lg:mb-[28px] md:mb-[24px] sm:mb-[25px] xsm:mb-[25px] p-[0_10%] md:p-[0_8%] sm:p-[0_2%]"
                 >
-                  Led by President Bo Reahard, S&R Technology Group assists businesses in leveraging computer technology to achieve their objectives. Mr. Reahard emphasizes, "We design and develop a single website that addresses not only the Internet needs of the organization but also their Extranet and Intranet requirements." This integrated approach allows a common database of information to be shared across all corporate audiences, with proprietary information safeguarded through a comprehensive directory services strategy.
-                </p>
+                  <h2
+                    class="s-56 w-700 text-[3.5rem] md:text-[2.94117rem] lg:text-[3.25rem] sm:text-[2.375rem] xsm:text-[2.0625rem] font-bold mb-[28px] lg:mb-[24px] md:mb-[18px] sm:mb-[15px] xsm:mb-[18px] leading-[1.25] font-Jakarta sm:leading-[1.35] xsm:leading-[1.35]"
+                  >
+                    About Us
+                  </h2>
+
+                  <p>
+                    Led by President Bo Reahard, S&R Technology Group assists
+                    businesses in leveraging computer technology to achieve
+                    their objectives. Mr. Reahard emphasizes, "We design and
+                    develop a single website that addresses not only the
+                    Internet needs of the organization but also their Extranet
+                    and Intranet requirements." This integrated approach allows
+                    a common database of information to be shared across all
+                    corporate audiences, with proprietary information
+                    safeguarded through a comprehensive directory services
+                    strategy.
+                  </p>
+                </div>
+
                 <!-- Buttons -->
                 <div class="btns-group inline-block">
                   <a
@@ -348,8 +381,8 @@
                     >Services</a
                   >
                   <a
-                    href="https://www.youtube.com/embed/SZEflIVnhH8"
-                    class="video-popup1 btn !rounded-[4px] btn--tra-black hover--theme ico-20 ico-right"
+                    href="#about-us-modal"
+                    class="mfp-modal-trigger btn !rounded-[4px] btn--tra-black hover--theme ico-20 ico-right"
                     >About Us
                   </a>
                 </div>
@@ -364,7 +397,7 @@
                 <h5
                   class="s-18 color--grey w-500 text-[1.125rem] lg:text-[1.125rem] md:text-[1.066176rem] sm:text-[1.4375rem] xsm:text-[1.3125rem] color--grey font-medium leading-[1.35] font-Jakarta sm:leading-[1.4] xsm:leading-[1.4]"
                 >
-                  Our clients love us as much as we love them
+                  Technology Partners
                 </h5>
               </div>
 
@@ -516,11 +549,9 @@
         <!-- End container -->
       </section>
       <!-- END HERO-19 -->
-      
-      <!-- DIVIDER LINE -->
-      <hr
-        class="divider w-full h-px bg-transparent bg-[linear-gradient(90deg,rgba(206,211,246,0)_0,#bbb_38%,#bbb_64%,rgba(206,211,246,0)_99%)] opacity-40 m-0 [border:none]"
-      />
+
+      <hr class="divider w-full h-px bg-transparent bg-[linear-gradient(90deg,rgba(206,211,246,0)_0,#bbb_38%,#bbb_64%,rgba(206,211,246,0)_99%)] opacity-40 m-0 [border:none]" />
+
       <!-- TEXT CONTENT
       ============================================= -->
       <section
@@ -935,9 +966,23 @@
                     <h6
                       class="s-22 w-700 text-[1.375rem] lg:text-[1.25rem] md:text-[1.397058rem] sm:text-[1.4375rem] xsm:text-[1.3125rem] font-bold mb-[10px] lg:mb-[12px] md:mb-[12px] xsm:mb-[15px] leading-[1.35] font-Jakarta sm:leading-[1.4] xsm:leading-[1.4]"
                     >
-                      Learn more about our services
+                      Learn more about our services:<br />
+                      I-Net Strategy
                     </h6>
-                    <p class="mb-0">...</p>
+                    <p class="mb-0">
+                      A well-structured I-Net ensures seamless communication
+                      across an organization. By integrating Internet, Extranet,
+                      and Intranet components, businesses can enhance
+                      collaboration, streamline workflows, and maintain
+                      information consistency.
+                    </p>
+
+                    <a
+                      href="chief-information-officer.html"
+                      class="btn btn-sm r-04 !rounded-[4px] btn--theme hover--tra-black mt-[25px] lg:mt-[22px] md:mt-[15px] sm:mt-[18px] xsm:mt-[18px]"
+                    >
+                      I-Net Strategy
+                    </a>
                   </div>
                 </div>
               </div>
@@ -1123,120 +1168,13 @@
         class="divider w-full h-px bg-transparent bg-[linear-gradient(90deg,rgba(206,211,246,0)_0,#bbb_38%,#bbb_64%,rgba(206,211,246,0)_99%)] opacity-40 m-0 [border:none]"
       />
 
-      <!-- STATISTIC-1
-      ============================================= -->
-      <div
-        id="statistic-1"
-        class="py--100 py-[100px] lg:py-[80px] md:py-[70px] statistic-section division"
-      >
-        <div class="container">
-          <!-- STATISTIC-1 WRAPPER -->
-          <div class="statistic-1-wrapper">
-            <div
-              class="flex flex-wrap mx-[calc(-0.5*_1.5rem)] justify-content-md-center md:justify-center lg:justify-center xl:justify-center row-cols-1 row-cols-md-3"
-            >
-              <!-- STATISTIC BLOCK #1 -->
-              <div
-                class="md:w-4/12 lg:w-4/12 xl:w-4/12 flex-[0_0_auto] w-full max-w-full px-[calc(0.5*_1.5rem)]"
-              >
-                <div id="sb-1-1" class="wow fadeInUp">
-                  <div class="statistic-block">
-                    <!-- Digit -->
-                    <div
-                      class="statistic-block-digit text-center w-[35%] inline-block float-left lg:w-[32%] md:w-full md:block md:float-none md:mb-[15px] sm:mb-[12px] xsm:mb-[12px]"
-                    >
-                      <h2
-                        class="s-46 statistic-number leading-none font-bold tracking-[-1px] mb-0 md:tracking-[-0.5px] text-[2.875rem] lg:text-[2.625rem] md:text-[2.35294rem] sm:text-[2.5rem] sm:leading-[1.35] xsm:text-[2.25rem] font-Jakarta"
-                      >
-                        <span class="count-element">89</span>k
-                      </h2>
-                    </div>
-                    <!-- Text -->
-                    <div
-                      class="statistic-block-txt color--grey w-[65%] inline-block pl-[20px] lg:w-[68%] lg:pl-[10px] md:w-full md:inline-block md:p-[0_8%] md:text-center"
-                    >
-                      <p class="p-md leading-[1.35] mb-0">
-                        Porta justo integer and velna vitae auctor
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- END STATISTIC BLOCK #1 -->
-              <!-- STATISTIC BLOCK #2 -->
-              <div
-                class="md:w-4/12 lg:w-4/12 xl:w-4/12 flex-[0_0_auto] w-full max-w-full px-[calc(0.5*_1.5rem)]"
-              >
-                <div id="sb-1-2" class="wow fadeInUp">
-                  <div class="statistic-block">
-                    <!-- Digit -->
-                    <div
-                      class="statistic-block-digit text-center w-[35%] inline-block float-left lg:w-[32%] md:w-full md:block md:float-none md:mb-[15px] sm:mb-[12px] xsm:mb-[12px]"
-                    >
-                      <h2
-                        class="s-46 statistic-number leading-none font-bold tracking-[-1px] mb-0 md:tracking-[-0.5px] text-[2.875rem] lg:text-[2.625rem] md:text-[2.35294rem] sm:text-[2.5rem] sm:leading-[1.35] xsm:text-[2.25rem] font-Jakarta"
-                      >
-                        <span class="count-element">76</span>%
-                      </h2>
-                    </div>
-                    <!-- Text -->
-                    <div
-                      class="statistic-block-txt color--grey w-[65%] inline-block pl-[20px] lg:w-[68%] lg:pl-[10px] md:w-full md:inline-block md:p-[0_8%] md:text-center"
-                    >
-                      <p class="p-md leading-[1.35] mb-0">
-                        Ligula magna suscipit vitae and rutrum
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- END STATISTIC BLOCK #2 -->
-              <!-- STATISTIC BLOCK #3 -->
-              <div
-                class="md:w-4/12 lg:w-4/12 xl:w-4/12 flex-[0_0_auto] w-full max-w-full px-[calc(0.5*_1.5rem)]"
-              >
-                <div id="sb-1-3" class="wow fadeInUp">
-                  <div class="statistic-block">
-                    <!-- Digit -->
-                    <div
-                      class="statistic-block-digit text-center w-[35%] inline-block float-left lg:w-[32%] md:w-full md:block md:float-none md:mb-[15px] sm:mb-[12px] xsm:mb-[12px]"
-                    >
-                      <h2
-                        class="s-46 statistic-number leading-none font-bold tracking-[-1px] mb-0 md:tracking-[-0.5px] text-[2.875rem] lg:text-[2.625rem] md:text-[2.35294rem] sm:text-[2.5rem] sm:leading-[1.35] xsm:text-[2.25rem] font-Jakarta"
-                      >
-                        <span class="count-element">4</span>.<span
-                          class="count-element"
-                          >93</span
-                        >
-                      </h2>
-                    </div>
-                    <!-- Text -->
-                    <div
-                      class="statistic-block-txt color--grey w-[65%] inline-block pl-[20px] lg:w-[68%] lg:pl-[10px] md:w-full md:inline-block md:p-[0_8%] md:text-center"
-                    >
-                      <p class="p-md leading-[1.35] mb-0">
-                        Sagittis congue augue egestas an egestas
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- END STATISTIC BLOCK #3 -->
-            </div>
-            <!-- End row -->
-          </div>
-          <!-- END STATISTIC-1 WRAPPER -->
-        </div>
-        <!-- End container -->
-      </div>
-      <!-- END STATISTIC-1 -->
       <!-- DIVIDER LINE -->
       <hr
         class="divider w-full h-px bg-transparent bg-[linear-gradient(90deg,rgba(206,211,246,0)_0,#bbb_38%,#bbb_64%,rgba(206,211,246,0)_99%)] opacity-40 m-0 [border:none]"
       />
 
       <!-- TESTIMONIALS-1
-                     ============================================= -->
+       ============================================= -->
       <section
         id="reviews-1"
         class="py--100 py-[100px] lg:py-[80px] md:py-[70px] after:absolute after:content-[''] after:z-[-1] after:w-[150%] after:h-3/4 after:-left-1/4 after:top-0 xsm:after:h-[92%] shape--gr-whitesmoke after:bg-[linear-gradient(180deg,rgba(244,244,249,0.8)_50%,rgba(244,244,249,0.05)_100%)] reviews-section"
@@ -2394,6 +2332,14 @@
     <style>
       .wsmenu {
         margin-top: 27px;
+      }
+      .owl-stage {
+        display: flex;
+        align-items: center;
+      }
+      .mfp-bg {
+        background: white;
+        opacity: 0.95;
       }
     </style>
   </body>

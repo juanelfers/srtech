@@ -163,6 +163,14 @@
 						}		  		  
 		});
 
+		$('.mfp-modal-trigger').magnificPopup({
+			type: 'inline',
+			fixedContentPos: true,
+			closeBtnInside: false,
+			preloader: false,
+			removalDelay: 160,
+			mainClass: 'mfp-fade'
+		});
 
 		/*----------------------------------------------------*/
 		/*	Statistic Counter
