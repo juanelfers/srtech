@@ -38955,3 +38955,7 @@ body.theme--dark {
     line-height: 1.25rem;
   }
 }
+
+.wsmenu {
+  margin-top: 27px;
+}
