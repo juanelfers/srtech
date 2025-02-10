@@ -10,22 +10,18 @@
       <html class="ie ie8" lang="en">
          <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!-->
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="author" content="elite-themes24" />
+    <meta name="author" content="Bo Reahard" />
     <meta
       name="description"
-      content="Martex - Tailwind CSS Software, SaaS & Startup Template"
-    />
-    <meta
-      name="keywords"
-      content="Responsive, HTML5, elite-themes24, Landing, Software, Mobile App, SaaS, Startup, Creative, Digital Product"
+      content="At S & R Technology Group we show small business owners how to be smarter in your use of web technology."
     />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- SITE TITLE -->
-    <title>Martex - Tailwind CSS Software, SaaS & Startup Template</title>
+    <title>S&R Group | Your Chief Information Offices</title>
     <!-- FAVICON AND TOUCH ICONS -->
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
     <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
@@ -82,11 +78,11 @@
     <!-- TEMPLATE CSS -->
     <link href="./style.css" rel="stylesheet" />
     <!-- Style Switcher CSS -->
-    <link href="css/colors/blue-theme.css" rel="stylesheet" />
+    <link href="css/colors/crocus-theme.css" rel="stylesheet" />
     <link
-      href="css/colors/crocus-theme.css"
+      href="css/colors/blue-theme.css"
       rel="alternate stylesheet"
-      title="crocus-theme"
+      title="blue-theme"
     />
     <link
       href="css/colors/green-theme.css"
@@ -126,7 +122,7 @@
   </head>
   <body class="theme--light">
     <!-- PRELOADER SPINNER
-                  ============================================= -->
+    ============================================= -->
     <div
       id="loading"
       class="loading--theme h-full w-full fixed z-[99999999] mt--0 top-0 bg-[#f5f5f9]"
@@ -140,201 +136,93 @@
         ></span>
       </div>
     </div>
-    <!-- STYLE SWITCHER
-                  ============================================= -->
-    <div
-      id="stlChanger"
-      class="fixed z-[9999] text-[15px] overflow-hidden right-[-230px] cursor-pointer transition-all duration-[400ms] ease-[ease-in-out] rounded-none top-[100px] xsm:hidden"
-    >
-      <div class="blockChanger bgChanger min-w-[280px] min-h-[280px] w-[230px]">
-        <a
-          href="#"
-          class="chBut icon-xs w-[50px] h-[50px] absolute z-[1000000] text-center transition-all duration-300 ease-[ease-in-out] shadow-[0_0_2px_rgba(50,50,50,0.4)] pl-[2px] pr-0 py-0 rounded-[4px_0px_0px_4px] ![border-left:none] [border:1px_solid_#ef2853] left-0 top-[30px] bg-[#ef2853]"
-          ><span
-            class="flaticon-control-panel before:content-['\f1cf'] before:text-white before:!text-[2.15rem]"
-          ></span
-        ></a>
-        <div
-          class="chBody white-color w-[230px] relative border h-[425px] overflow-scroll overflow-x-hidden ml-[50px] rounded-[4px_0px_0px_4px] border-solid border-[#2b2e37] bg-[#2b2e37] [direction:rtl]"
-        >
-          <div class="stBlock text-center" style="margin: 30px 20px 20px 26px">
-            <div class="stBgs">
-              <p
-                class="switch text-[18px] font-semibold tracking-[0] mb-[20px] font-Jakarta w-full text-white rounded px-[1.4rem] py-[0.4rem] border-2 border-solid border-white !leading-[1.6666]"
-              ></p>
-              <p
-                class="color--white text-[1.125rem] font-semibold tracking-[0] mb-[20px] font-Jakarta"
-              >
-                Color Scheme
-              </p>
-              <a
-                class="no-underline w-[50px] h-[50px] float-left cursor-pointer opacity-100 mt-0 mb-[8px] mx-[5px] p-0 rounded-[8px]"
-                href="javascript:chooseStyle('pink-theme', 60)"
-                ><img
-                  src="images/color-scheme/pink.jpg"
-                  class="w-[50px] h-[50px] rounded-[8px]"
-                  alt=""
-              /></a>
-              <a
-                class="no-underline w-[50px] h-[50px] float-left cursor-pointer opacity-100 mt-0 mb-[8px] mx-[5px] p-0 rounded-[8px]"
-                href="javascript:chooseStyle('purple-theme', 60)"
-                ><img
-                  src="images/color-scheme/purple.jpg"
-                  class="w-[50px] h-[50px] rounded-[8px]"
-                  alt=""
-              /></a>
-              <a
-                class="no-underline w-[50px] h-[50px] float-left cursor-pointer opacity-100 mt-0 mb-[8px] mx-[5px] p-0 rounded-[8px]"
-                href="javascript:chooseStyle('violet-theme', 60)"
-                ><img
-                  src="images/color-scheme/violet.jpg"
-                  class="w-[50px] h-[50px] rounded-[8px]"
-                  alt=""
-              /></a>
-              <a
-                class="no-underline w-[50px] h-[50px] float-left cursor-pointer opacity-100 mt-0 mb-[8px] mx-[5px] p-0 rounded-[8px]"
-                href="javascript:chooseStyle('skyblue-theme', 60)"
-                ><img
-                  src="images/color-scheme/skyblue.jpg"
-                  class="w-[50px] h-[50px] rounded-[8px]"
-                  alt=""
-              /></a>
-              <a
-                class="no-underline w-[50px] h-[50px] float-left cursor-pointer opacity-100 mt-0 mb-[8px] mx-[5px] p-0 rounded-[8px]"
-                href="javascript:chooseStyle('magenta-theme', 60)"
-                ><img
-                  src="images/color-scheme/magenta.jpg"
-                  class="w-[50px] h-[50px] rounded-[8px]"
-                  alt=""
-              /></a>
-              <a
-                class="no-underline w-[50px] h-[50px] float-left cursor-pointer opacity-100 mt-0 mb-[8px] mx-[5px] p-0 rounded-[8px]"
-                href="javascript:chooseStyle('crocus-theme', 60)"
-                ><img
-                  src="images/color-scheme/crocus.jpg"
-                  class="w-[50px] h-[50px] rounded-[8px]"
-                  alt=""
-              /></a>
-              <a
-                class="no-underline w-[50px] h-[50px] float-left cursor-pointer opacity-100 mt-0 mb-[8px] mx-[5px] p-0 rounded-[8px]"
-                href="javascript:chooseStyle('red-theme', 60)"
-                ><img
-                  src="images/color-scheme/red.jpg"
-                  class="w-[50px] h-[50px] rounded-[8px]"
-                  alt=""
-              /></a>
-              <a
-                class="no-underline w-[50px] h-[50px] float-left cursor-pointer opacity-100 mt-0 mb-[8px] mx-[5px] p-0 rounded-[8px]"
-                href="javascript:chooseStyle('green-theme', 60)"
-                ><img
-                  src="images/color-scheme/green.jpg"
-                  class="w-[50px] h-[50px] rounded-[8px]"
-                  alt=""
-              /></a>
-            </div>
-          </div>
-          <div class="stBlock text-center" style="margin: 0px 27px 25px 31px">
-            <a
-              class="btn rounded-[4px] btn--theme hover--theme w-full leading-none mt-[15px] !px-[1.2rem] !py-[0.65rem]"
-              href="javascript:chooseStyle('none', 60)"
-              >Reset Color</a
-            >
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- END SWITCHER -->
+
     <!-- PAGE CONTENT
-                  ============================================= -->
+     ============================================= -->
     <div id="page" class="page font--jakarta">
       <!-- HEADER
-				   ============================================= -->
-           <header
-           id="header"
-           class="tra-menu navbar-dark light-hero-header white-scroll w-full block pt-0"
-         >
-           <div class="header-wrapper fixed z-[1030] top-0 inset-x-0">
-             <!-- MOBILE HEADER -->
-             <div class="wsmobileheader clearfix">
-               <span
-                 class="smllogo md:!block md:!mt-[22px] md:!pl-[22px] sm:!block sm:!mt-[23px] sm:!pl-[18px] xsm:!block xsm:!mt-[23px] xsm:!pl-[16px]"
-                 ><img
-                   class="md:w-auto md:max-w-[inherit] md:max-h-[34px] sm:!w-auto sm:!max-w-[inherit] sm:!max-h-[34px] xsm:!w-auto xsm:!max-w-[inherit] xsm:!max-h-[34px]"
-                   src="images/logo-purple-white.png"
-                   alt="mobile-logo"
-               /></span>
-               <a id="wsnavtoggle" class="wsanimated-arrow"><span></span></a>
-             </div>
-             <!-- NAVIGATION MENU -->
-             <div
-               class="wsmainfull menu clearfix text-[#b1b7cd] p-0 !bg-transparent shadow-none px-0 !py-[20px] w-full h-auto z-[1031] [transition:all_450ms_ease-in-out]"
-             >
-               <div class="wsmainwp clearfix">
-                 <!-- HEADER BLACK LOGO -->
-                 <div class="desktoplogo">
-                   <a href="index.html" class="logo-black">
-                     <img
-                       class="light-theme-img inline-block"
-                       src="images/logo/sr-tech-group.png"
-                       alt="logo"
-                     />
-                     <img
-                       class="dark-theme-img"
-                       src="images/logo/sr-tech-group.png"
-                       alt="logo"
-                     />
-                   </a>
-                 </div>
-                 <!-- HEADER WHITE LOGO -->
-                 <div class="desktoplogo">
-                   <a href="#hero-19" class="logo-white">
-                     <img
-                       class="w-auto inline-block"
-                       src="images/logo/sr-tech-group.png"
-                       alt="logo"
-                   /></a>
-                 </div>
-                 <!-- MAIN MENU -->
-                 <nav class="wsmenu clearfix">
-                   <div class="overlapblackbg"></div>
-                   <ul class="wsmenu-list nav-theme">
-                     <!-- SIMPLE NAVIGATION LINK -->
-                     <li class="nl-simple" aria-haspopup="true">
-                       <a href="chief-information-officer.html" class="h-link">CIO</a>
-                     </li>
-                     </li>
-                     <!-- END MEGAMENU -->
-                     <!-- SIMPLE NAVIGATION LINK -->
-                     <li class="nl-simple" aria-haspopup="true">
-                       <a href="our-services.html" class="h-link">Our Services</a>
-                     </li>
-                     <!-- SIGN IN LINK -->
-                     <li
-                       class="nl-simple reg-fst-link mobile-last-link"
-                       aria-haspopup="true"
-                     >
-                       <a href="login-2.html" class="h-link">Sign in</a>
-                     </li>
-                     <!-- SIGN UP BUTTON -->
-                     <li class="nl-simple" aria-haspopup="true">
-                       <a
-                         href="signup-2.html"
-                         class="btn r-04 !rounded-[4px] btn--theme hover--theme last-link"
-                         >Sign up</a
-                       >
-                     </li>
-                   </ul>
-                 </nav>
-                 <!-- END MAIN MENU -->
-               </div>
-             </div>
-             <!-- END NAVIGATION MENU -->
-           </div>
-           <!-- End header-wrapper -->
-         </header>
+			============================================= -->
+      <header
+        id="header"
+        class="tra-menu navbar-dark light-hero-header white-scroll w-full block pt-0"
+      >
+        <div class="header-wrapper fixed z-[1030] top-0 inset-x-0">
+          <!-- MOBILE HEADER -->
+          <div class="wsmobileheader clearfix">
+            <span
+              class="smllogo md:!block md:!mt-[22px] md:!pl-[22px] sm:!block sm:!mt-[23px] sm:!pl-[18px] xsm:!block xsm:!mt-[23px] xsm:!pl-[16px]"
+              ><img
+                class="md:w-auto md:max-w-[inherit] md:max-h-[34px] sm:!w-auto sm:!max-w-[inherit] sm:!max-h-[34px] xsm:!w-auto xsm:!max-w-[inherit] xsm:!max-h-[34px]"
+                src="images/logo-purple-white.png"
+                alt="mobile-logo"
+            /></span>
+            <a id="wsnavtoggle" class="wsanimated-arrow"><span></span></a>
+          </div>
+          <!-- NAVIGATION MENU -->
+          <div
+            class="wsmainfull menu clearfix text-[#b1b7cd] p-0 !bg-transparent shadow-none px-0 !py-[20px] w-full h-auto z-[1031] [transition:all_450ms_ease-in-out]"
+          >
+            <div class="wsmainwp clearfix">
+              <!-- HEADER BLACK LOGO -->
+              <div class="desktoplogo">
+                <a href="index.html" class="logo-black">
+                  <img
+                    class="light-theme-img inline-block"
+                    src="images/logo/sr-tech-group.png"
+                    alt="logo"
+                  />
+                  <img
+                    class="dark-theme-img"
+                    src="images/logo/sr-tech-group.png"
+                    alt="logo"
+                  />
+                </a>
+              </div>
+              <!-- HEADER WHITE LOGO -->
+              <div class="desktoplogo">
+                <a href="#hero-19" class="logo-white">
+                  <img
+                    class="w-auto inline-block"
+                    src="images/logo/sr-tech-group.png"
+                    alt="logo"
+                /></a>
+              </div>
+              <!-- MAIN MENU -->
+              <nav class="wsmenu clearfix">
+                <div class="overlapblackbg"></div>
+                <ul class="wsmenu-list nav-theme">
+                  <li class="nl-simple" aria-haspopup="true">
+                    <a href="index.html" class="h-link">Home</a>
+                  </li>
+                  <li class="nl-simple" aria-haspopup="true">
+                    <a href="cio.html" class="h-link">CIO</a>
+                  </li>
+                  <li class="nl-simple" aria-haspopup="true">
+                    <a href="services.html" class="h-link">Services</a>
+                  </li>
+                  <li class="nl-simple" aria-haspopup="true">
+                    <a href="asp.html" class="h-link">ASP</a>
+                  </li>
+                  <li class="nl-simple" aria-haspopup="true">
+                    <a href="hosting.html" class="h-link">Hosting</a>
+                  </li>
+                  <li class="nl-simple" aria-haspopup="true">
+                    <a href="i-net.html" class="h-link">I-Net</a>
+                  </li>
+                  <li class="nl-simple" aria-haspopup="true">
+                    <a href="contact-us.html" class="h-link">Contact Us</a>
+                  </li>
+                </ul>
+              </nav>
+              <!-- END MAIN MENU -->
+            </div>
+          </div>
+          <!-- END NAVIGATION MENU -->
+        </div>
+        <!-- End header-wrapper -->
+      </header>
       <!-- END HEADER -->
-      <!-- CAREER ROLE
-                     ============================================= -->
+       
       <section
         id="role-page"
         class="pb-[80px] lg:pb-[60px] md:pb-[50px] inner-page-hero division pt-[180px] lg:pt-[160px] md:mt-[80px] md:pt-[70px]"
